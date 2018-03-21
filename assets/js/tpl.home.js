@@ -7,7 +7,7 @@ $(document).ready(function() {
         boxOneTl.from($("#myName"), 2, {css:{opacity: 0, y: 50}, ease: Power3.easeOut}, '-=2');     
         boxOneTl.from($("#myQuote"), 2, {css:{opacity: 0, x: -50}, ease: Power3.easeOut}, '-=1');  
         boxOneTl.from($("#LearnMore"), 1, {css:{opacity: 0}, ease: Power3.easeOut}, '-=2');  
-        $("#boxTwo").sticky({topSpacing: 0, zIndex: 100});
+        $("#menuBox").sticky({topSpacing: 0, zIndex: 100});
 });
 
 $(document).on('scroll', function() {
