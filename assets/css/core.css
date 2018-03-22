@@ -1,4 +1,5 @@
 @import url("min-1200.css");
+@import url("max-1200.css");
 
 body {
     min-height: 100%;
