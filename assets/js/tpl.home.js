@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $('a').attr('target', '_blank');
     $('.bg-one').backgroundMove({
         movementStrength: '20'
     });
