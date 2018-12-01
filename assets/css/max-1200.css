@@ -4,6 +4,10 @@
         display: none;
     }
 
+    span.badge.badge-secondary {
+	font-size: inherit;
+    }
+	
     .bs-centerobj {
         width: auto;
         height: auto;
